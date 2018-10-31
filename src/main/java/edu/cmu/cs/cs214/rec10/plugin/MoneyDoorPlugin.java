@@ -64,6 +64,9 @@ public class MoneyDoorPlugin implements GamePlugin {
         PlayerScores.put("X", 0);
     }
 
+    /**
+     * Indicates that a new move has been made.
+     */
     public void onNewMove() {
         System.out.println("on new move");
     }
